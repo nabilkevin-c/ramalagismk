@@ -1,0 +1,121 @@
+/* Reset default margin and padding */
+
+/* Menambahkan background gradient pada seluruh halaman */
+body {
+    background-image:url(dd374b8c-bbac-4041-b0ee-fa4e7de1d847_169.jpeg); 
+    width: max-content;
+    background-size: cover;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #ece6e6;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+.container p{
+    color: #d0f904;
+}
+
+section p {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* About Section */
+#about p {
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+/* Services Section */
+#services ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#services ul li {
+    background-color: #4CAF50;
+    color: white;
+    margin: 10px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
